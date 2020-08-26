@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px;
+    background-image: url(./images/sharon-mccutcheon-WqPAETBU2G8-unsplash.jpg);
+}
+
+.titulo{
+text-align: center;
+font: 600;
+font-size: 4em;
+color: wheat;
+}
+.foto{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 500px;
+    border-radius: 10px;
+    filter: grayscale(0);
+}
+.foto:hover{
+filter: grayscale(80%);
+}
+#name,
+#age,
+#work,
+#play
+{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 400;
+    color: wheat;
+}
+
